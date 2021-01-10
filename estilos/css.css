@@ -16,9 +16,9 @@ body {background-image:url('../imagenes/patron.png') ;}
 
 
   a {text-decoration:none;
-    color:green;
+    color:rgb(255, 255, 255);
     font-weight:bold;}
- a:hover {color:red;}
+ a:hover {color:rgb(0, 0, 0);}
  
  button {cursor:pointer;
          }
@@ -219,6 +219,12 @@ padding:10%;}
 .marcas {display:grid;
     grid-template-columns:auto auto auto auto ;
 }
+
+.marcas a {
+  text-align: center;
+  align-items: center;
+}
+
 .col4 {padding:15px;
 margin:10px;
 background-color:rgb(87, 87, 87);
